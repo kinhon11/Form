@@ -1,0 +1,31 @@
+.registration-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f1f5f9;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input, select {
+      padding: 8px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      padding: 10px;
+      background: #007bff;
+      color: white;
+      border: none;
+    }
+
+    div {
+      color: red;
+      font-size: 12px;
+    }
+  }
+}
